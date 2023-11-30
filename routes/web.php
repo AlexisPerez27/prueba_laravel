@@ -41,9 +41,9 @@ Route::get('principal',[c_login::class,'principal'])->name('principal');
 Route::get('cerrar_sesion',[c_login::class,'cerrar_sesion'])->name('cerrar_sesion');
 
 // pruebas de rutas
-/* Route::get('/', function () {
+Route::get('/', function () {
     return view('welcome');
-}); */
+});
 
 
 /* Route::get('/ruta1', function () {
